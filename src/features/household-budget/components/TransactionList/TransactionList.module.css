@@ -1,0 +1,48 @@
+.transactionList {
+  background-color: var(--color-card);
+  border-radius: var(--radius);
+  padding: 20px;
+  margin-bottom: 30px;
+  box-shadow: var(--shadow-sm);
+  border: 2px solid var(--color-border);
+}
+
+.transactionList h2 {
+  border-bottom: 2px solid var(--color-primary);
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.tableContainer {
+  overflow-x: auto;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.table th,
+.table td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.table th {
+  background-color: var(--color-muted);
+  font-weight: 600;
+}
+
+.emptyMessage {
+  text-align: center;
+  color: var(--color-muted-foreground);
+  font-style: italic;
+}
+
+@media (max-width: 768px) {
+  .tableContainer {
+    overflow-x: scroll;
+  }
+}

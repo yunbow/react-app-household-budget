@@ -1,0 +1,8 @@
+.transactionItem:hover {
+  background-color: var(--color-hover);
+}
+
+.actions {
+  display: flex;
+  gap: 8px;
+}

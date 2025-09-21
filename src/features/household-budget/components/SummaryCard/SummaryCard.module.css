@@ -1,0 +1,19 @@
+.summaryCard {
+  text-align: center;
+  padding: 15px;
+  border-radius: var(--radius);
+  background-color: var(--color-card);
+  box-shadow: var(--shadow-sm);
+}
+
+.income {
+  background-color: var(--color-income);
+}
+
+.expense {
+  background-color: var(--color-expense);
+}
+
+.balance {
+  background-color: var(--color-card);
+}

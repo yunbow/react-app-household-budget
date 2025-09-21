@@ -1,0 +1,26 @@
+.expenseChart {
+  background-color: var(--color-card);
+  border-radius: var(--radius);
+  padding: 20px;
+  margin-bottom: 30px;
+  box-shadow: var(--shadow-sm);
+  border: 2px solid var(--color-border);
+}
+
+.expenseChart h2 {
+  border-bottom: 2px solid var(--color-primary);
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.chartContainer {
+  height: 400px;
+  position: relative;
+}
+
+.noDataMessage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}

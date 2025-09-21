@@ -1,0 +1,29 @@
+.filterControls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-bottom: 20px;
+  background-color: var(--color-muted);
+  padding: 15px;
+  border-radius: var(--radius);
+}
+
+.filterControls > div {
+  flex: 1;
+  min-width: 200px;
+}
+
+.applyButton {
+  align-self: flex-end;
+  max-width: 150px;
+}
+
+@media (max-width: 768px) {
+  .filterControls {
+    flex-direction: column;
+  }
+
+  .applyButton {
+    max-width: 100%;
+  }
+}
